@@ -1,0 +1,240 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" target="_blank" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <img src="assets/destinyLogo.png" alt="logo" />
+          
+        </div>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Program(s)</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <li>
+            <!-- Button -->
+<button 
+class="btn me-2" 
+style="background-color: #00587a; color: white; border: none;" 
+data-bs-toggle="modal" 
+data-bs-target="#applyModal">
+Apply Now
+</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="applyModalLabel">Application Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <!-- Parent/Guardian Details -->
+          <div class="mb-3">
+            <label for="parentName" class="form-label">Parent/Guardian Name</label>
+            <input type="text" class="form-control" id="parentName" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" required>
+          </div>
+          <!-- Child's Details -->
+          <div class="mb-3">
+            <label for="childName" class="form-label">Child's Name</label>
+            <input type="text" class="form-control" id="childName" required>
+          </div>
+          <div class="mb-3">
+            <label for="dob" class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" id="dob" required>
+          </div>
+          <!-- Consent -->
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="consent" required>
+            <label class="form-check-label" for="consent">
+              I confirm that I am the parent/guardian of the child and consent to provide this information.
+            </label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit Application</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+      <div class="menubar">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        
+        </ul>
+      </div>
+
+
+
+
+      <!--  Program Section-->
+
+      <h1 style="text-align: center; margin-top: 20px;">Our Remedial Program</h1>
+
+      <h4 style="text-align: center; margin-top: 25px; color: #cacaca;">At Destiny College, we believe every child deserves the opportunity to succeed. 
+        Our specialized remedial lessons in reading and mathematics are 
+        designed specifically for primary school pupils who need extra support to enhance their skills and confidence.
+    </h4>
+
+    <!-- PROGRAM Cards-->
+
+
+    <section id="our-programs" class="py-5" style="background-color: #f4f4f4; color: #cacaca;">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold" style="color: #00587a;">Our Programs</h2>
+            <p class="text-muted" style="color: #cacaca;">Empowering children with the tools to learn and succeed.</p>
+          </div>
+          
+          <div class="row g-4">
+            <!-- Program Highlights -->
+            <div class="col-md-6">
+              <h4 class="fw-bold" style="color: #00587a;">Program Highlights</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" style="background-color: #f4f4f4;  border-color: #cacaca;">
+                  <strong style="color: #00587a;">Tailored Learning:</strong> Each lesson is customized to meet the individual needs of your child, ensuring they grasp fundamental concepts at their own pace.
+                </li>
+                <li class="list-group-item" style="background-color: #f4f4f4;  border-color: #cacaca;">
+                  <strong style="color: #00587a;">Experienced Instructors:</strong> Our dedicated teachers are trained professionals with a passion for helping children learn and grow.
+                </li>
+                <li class="list-group-item" style="background-color: #f4f4f4; border-color: #cacaca;">
+                  <strong style="color: #00587a;">Interactive Sessions:</strong> We use engaging teaching methods that make learning fun and effective, including games, group activities, and hands-on exercises.
+                </li>
+                <li class="list-group-item" style="background-color: #f4f4f4; border-color: #cacaca;">
+                  <strong style="color: #00587a;">Small Class Sizes:</strong> Your child will receive personalized attention and support from our instructors.
+                </li>
+              </ul>
+            </div>
+      
+            <!-- Benefits of Our Program -->
+            <div class="col-md-6">
+              <h4 class="fw-bold" style="color: #00587a;">Benefits of Our Program</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" style="background-color: #f4f4f4;  border-color: #cacaca;">Improve reading comprehension and fluency</li>
+                <li class="list-group-item" style="background-color: #f4f4f4;  border-color: #cacaca;">Strengthen mathematical problem-solving skills</li>
+                <li class="list-group-item" style="background-color: #f4f4f4;  border-color: #cacaca;">Build confidence in academic abilities</li>
+                <li class="list-group-item" style="background-color: #f4f4f4;  border-color: #cacaca;">Foster a love for learning through positive reinforcement</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Enrollment Information -->
+          <div class="row g-4 mt-5">
+            <div class="col-md-12">
+              <div class="p-4" style="background-color: white; color: #cacaca; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <h4 class="fw-bold text-center" style="color: #00587a;">Enrollment Information</h4>
+                <p class="text-center">
+                  <strong style="color: #00587a;">Who Can Join:</strong> Primary school pupils struggling with reading or mathematics <br>
+                  <strong style="color: #00587a;">When:</strong> Classes start on <span class="fw-bold">[Insert Start Date]</span>
+                </p>
+                <div class="text-center mt-3">
+                  <a href="#apply" class="btn" style="background-color: #00587a; color: white; border: none; padding: 10px 30px;">Apply Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Footer -->
+
+      <footer style="background-color: #00587a; color: white; padding: 40px 0;">
+        <div class="container">
+          <div class="row align-items-center">
+          
+      
+            <!-- Column 2: About Us Section -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold">About Us</h5>
+              <p style="color:#cacaca;">Destiny College offers a wide range of qualifications to equip students with the skills needed to succeed in today's world.</p>
+            </div>
+            
+            <!-- Column 3: Quick Links -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#home" style="color:#cacaca;">Home</a></li>
+                <li><a href="#about" style="color:#cacaca;">About</a></li>
+                <li><a href="#courses" style="color:#cacaca;">Courses</a></li>
+                <li><a href="#contact" style="color:#cacaca;">Contact</a></li>
+              </ul>
+            </div>
+      
+            <!-- Column 4: Contact Information -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold">Contact</h5>
+              <p style="color:#cacaca;">Email: info@destinycollege.com</p>
+              <p style="color:#cacaca;">Phone: +123 456 7890</p>
+              <p style="color:#cacaca;">Address: 123 Destiny St., College Town</p>
+            </div>
+          </div>
+      
+          <!-- Social Media Icons -->
+          <div class="text-center mt-4">
+            <a href="#" style="color:#cacaca; margin-right: 15px;"><i class="bi bi-facebook" style="font-size: 24px;"></i></a>
+            <a href="#" style="color:#cacaca; margin-right: 15px;"><i class="bi bi-twitter" style="font-size: 24px;"></i></a>
+            <a href="#" style="color:#cacaca; margin-right: 15px;"><i class="bi bi-linkedin" style="font-size: 24px;"></i></a>
+            <a href="#" style="color:#cacaca; margin-right: 15px;"><i class="bi bi-instagram" style="font-size: 24px;"></i></a>
+          </div>
+      
+          <!-- Copyright -->
+          <div class="text-center mt-4">
+            <p style="color:#cacaca;" class="mb-0">&copy; 2024 Destiny College. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
